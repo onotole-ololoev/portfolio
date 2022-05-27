@@ -1,0 +1,22 @@
+.footer {
+    background-color: #ef9e9e;
+}
+.container {
+    flex-direction: column;
+}
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #607c60;
+    min-width: 250px;
+    margin-bottom: 10px;
+}
+.socialItem {
+    width: 30px;
+    height: 30px;
+    background-color: #ea58ea;
+}
+.footerBottom {
+    padding-bottom: 5px;
+}

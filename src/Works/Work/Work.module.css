@@ -1,4 +1,4 @@
-.skill {
+.work {
     width: 250px;
     background-color: #5aa7b9;
     display: flex;
@@ -6,10 +6,12 @@
     align-items: center;
     text-align: center;
 }
-.icon {
-    width: 60px;
-    height: 60px;
-    background-color: #ef9e9e;
+.workItem {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #607c60;
 }
 .description {
 

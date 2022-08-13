@@ -1,0 +1,68 @@
+@import "../../common/styles/saas/variables";
+
+.work {
+    max-width: 400px;
+    background-color: $bgSecondColor;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    text-align: center;
+    /*padding: 10px;*/
+    .workItem {
+        min-height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            background: black;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.4;
+        }
+        .viewButton {
+            text-decoration: none;
+            width: 100px;
+            padding: 5px;
+            cursor: pointer;
+            color: $textColor;
+            background-color: $bgSecondColor;
+            position: relative;
+            z-index: 1;
+            &:hover {
+                background-color:$textColor;
+                color: $bgThirdColor;
+                transition: 0.5s;
+            }
+        }
+
+    }
+    .workInfo {
+        padding: 25px 20px;
+        .workTitle {
+            font-size: 18px;
+            letter-spacing: 1px;
+            margin: 0 0 5px;
+            line-height: 1.2;
+            color: $textColor;
+        }
+        .description {
+            color: $textColor;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+    }
+}
+
+
+
+
+

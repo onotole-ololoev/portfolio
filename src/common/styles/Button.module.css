@@ -2,11 +2,12 @@
     text-decoration: none;
     width: 100px;
     padding: 5px;
-    background-color: #bb8cbb;
     cursor: pointer;
-    border: 1px solid black;
+    color: #dccebf;
+    background-color: rgb(185, 160, 138);
 }
 .button:hover {
-    background-color: #69690a;
+    background-color: #D8C3A5;
+    color: #E98074;
     transition: 0.5s;
 }

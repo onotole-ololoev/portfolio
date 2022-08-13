@@ -1,0 +1,36 @@
+@import "./src/common/styles/saas/variables";
+
+.main {
+  min-height: 100vh;
+  background-color: $bgColor;
+  .greetings {
+    //background-color: #787a7a;
+    .text {
+      color: $primaryColor;
+      text-transform: capitalize;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 5px;
+
+    }
+
+    .title {
+      margin: 0 0 30px;
+      font-weight: 700;
+      color: $primaryColor;
+      text-transform: capitalize;
+      font-size: 60px;
+      line-height: 1.2;
+      letter-spacing: 5px;
+    }
+  }
+
+  .photo {
+    width: 300px;
+    height: 300px;
+    background-color: #878b8c;
+  }
+
+
+}
+

@@ -1,0 +1,24 @@
+@import "./src/common/styles/saas/variables";
+.title {
+    margin: 0 0 30px;
+    font-weight: 300;
+    color: $primaryColor;
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        background: $primaryColor;
+        width: 55px;
+        height: 1px;
+        bottom: -15px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+    .title h2 {
+        margin: 0;
+    }
+}

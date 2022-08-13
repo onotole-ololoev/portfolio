@@ -1,16 +1,15 @@
 import React from 'react';
-import style from "./Work.module.css";
-import styleButton from '../../common/styles/Button.module.css'
+import style from "./Work.module.scss";
 
 
 const Work = (props) => {
     return (
         <div className={style.work}>
-            <div className={style.workItem}>
-                <a className={styleButton.button} href="#">Open</a>
+            <div className={style.workItem} style={props.style}>
+                <a className={style.viewButton} href="#">Open</a>
             </div>
-            <div>
-                <h3>{props.title}</h3>
+            <div className={style.workInfo}>
+                <h3 className={style.workTitle}>{props.title}</h3>
                 <span className={style.description}>{props.description}</span>
             </div>
         </div>

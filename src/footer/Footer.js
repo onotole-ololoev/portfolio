@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Footer.module.css';
+import style from './Footer.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
 
 
@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className={style.footer}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <h2>Onotole Ololoev</h2>
+                <h2 className={style.footerTitle}>Onotole Ololoev</h2>
                 <div className={style.socials}>
                     <div className={style.socialItem}>Ld</div>
                     <div className={style.socialItem}>Fb</div>

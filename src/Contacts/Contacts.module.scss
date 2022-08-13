@@ -1,0 +1,41 @@
+@import './src/common/styles/saas/variables';
+.contacts {
+    background-color:$bgThirdColor;
+    .container {
+        flex-direction: column;
+        padding: 50px 0;
+
+        .contactsForm {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: $bgThirdColor;
+
+            .contactsInput,
+            .contactsTextArea {
+                width: 200px;
+                margin-bottom: 10px;
+            }
+
+            .button {
+                border:none;
+                text-decoration: none;
+                width: 100px;
+                padding: 5px;
+                cursor: pointer;
+                color: $textColor;
+                background-color: $bgSecondColor;
+                position: relative;
+                z-index: 1;
+
+                &:hover {
+                    background-color: $textColor;
+                    color: $bgThirdColor;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }}
+
+

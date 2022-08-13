@@ -1,6 +1,7 @@
+@import "./src/common/styles/saas/variables.scss";
 .header {
     height: 80px;
-    background-color: #5aa7b9;
+    background-color: $bgThirdColor;
     display: flex;
     justify-content: flex-end;
     align-items: center;

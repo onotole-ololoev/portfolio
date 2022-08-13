@@ -1,0 +1,25 @@
+@import "./src/common/styles/saas/variables";
+
+.worksBlock {
+  background-color: $bgColor;
+
+  .worksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .works {
+
+      background-color: $bgColor;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      @media screen and (max-width: 1068px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+/*next colors #EAE7DC - #D8C3A5 - #8E8D8A - #E98074 - #E85A4F*/

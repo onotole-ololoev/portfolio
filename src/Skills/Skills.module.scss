@@ -1,0 +1,20 @@
+@import "./src/common/styles/saas/variables";
+.skillsBlock {
+    min-height: 100vh;
+    background-color: $bgThirdColor;
+    .skillsContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .skills {
+        //border: 1px solid;
+        background-color: $bgThirdColor;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media screen and (max-width: 692px) {
+            justify-content: center;
+        }
+    }
+}
